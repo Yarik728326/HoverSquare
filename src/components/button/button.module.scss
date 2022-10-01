@@ -1,0 +1,14 @@
+.wrapper {
+  height: 30px;
+  width: 80px;
+  background: blue;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.04,1.04);
+    transition: all .3ms;
+  }
+}

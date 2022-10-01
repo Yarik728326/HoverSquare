@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 300px;
+  overflow-y: auto;
+  width: 220px;
+  .info {
+    width: 200px;
+    min-height: 50px;
+    background: orange;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+}

@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  gap: 10px;
+  .header {
+    display: flex;
+    gap: 5px;
+  }
+  .wrapper {
+    display: flex;
+    width: 100%;
+    gap: 2px;
+    flex-wrap: wrap;
+  }
+}
